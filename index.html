@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nanda Kishore — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Phosphor Icons CDN -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+
+  <!-- ══════════════════════════════
+       NAVIGATION
+  ══════════════════════════════ -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="nav-logo">NKR<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="ph ph-list"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ══════════════════════════════
+         HERO
+    ══════════════════════════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-text" aria-hidden="true">PORTFOLIO</div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-greeting">Hello, I'm</span>
+          <h1 class="hero-name">Konduru <em>Nanda Kishore Reddy</em></h1>
+          <p class="hero-role">Full‑Stack Developer &amp; UI Designer</p>
+          <p class="hero-bio">I craft beautiful, functional digital experiences — from pixel-perfect interfaces to robust back-end systems. Based in San Francisco, open to remote work worldwide.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="ph ph-folder-open"></i> View My Work
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="ph ph-paper-plane-tilt"></i> Get In Touch
+            </a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble"><i class="ph ph-dribbble-logo"></i></a>
+          </div>
+        </div>
+        <div class="hero-avatar-wrap">
+          <div class="hero-avatar">
+            <svg viewBox="0 0 260 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Background shape -->
+              <ellipse cx="130" cy="260" rx="105" ry="18" fill="rgba(99,102,241,0.12)"/>
+              <!-- Body -->
+              <rect x="55" y="170" width="150" height="100" rx="30" fill="#312e81"/>
+              <!-- Shirt accent -->
+              <path d="M105 170 L130 210 L155 170" fill="#4f46e5"/>
+              <!-- Head -->
+              <ellipse cx="130" cy="145" rx="52" ry="58" fill="#fbbf24"/>
+              <!-- Hair -->
+              <path d="M78 130 Q80 72 130 68 Q180 72 182 130 Q165 90 130 92 Q95 90 78 130Z" fill="#1e1b4b"/>
+              <!-- Eyes -->
+              <ellipse cx="112" cy="145" rx="7" ry="8" fill="#1e1b4b"/>
+              <ellipse cx="148" cy="145" rx="7" ry="8" fill="#1e1b4b"/>
+              <!-- Eye shine -->
+              <circle cx="115" cy="142" r="2.5" fill="white"/>
+              <circle cx="151" cy="142" r="2.5" fill="white"/>
+              <!-- Smile -->
+              <path d="M113 165 Q130 178 147 165" stroke="#92400e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <!-- Laptop -->
+              <rect x="70" y="218" width="120" height="70" rx="6" fill="#1e1b4b"/>
+              <rect x="76" y="224" width="108" height="58" rx="4" fill="#312e81"/>
+              <!-- Screen code lines -->
+              <rect x="84" y="232" width="50" height="4" rx="2" fill="#6366f1" opacity="0.8"/>
+              <rect x="84" y="242" width="70" height="4" rx="2" fill="#818cf8" opacity="0.6"/>
+              <rect x="84" y="252" width="40" height="4" rx="2" fill="#6366f1" opacity="0.8"/>
+              <rect x="84" y="262" width="60" height="4" rx="2" fill="#818cf8" opacity="0.6"/>
+              <!-- Screen cursor -->
+              <rect x="130" y="262" width="3" height="8" rx="1" fill="#a5b4fc"/>
+              <!-- Badge -->
+              <circle cx="195" cy="100" r="28" fill="#f59e0b"/>
+              <text x="195" y="96" text-anchor="middle" fill="white" font-size="9" font-family="Outfit" font-weight="600">5+ YRS</text>
+              <text x="195" y="108" text-anchor="middle" fill="white" font-size="8" font-family="Outfit">EXP</text>
+            </svg>
+          </div>
+          <div class="hero-avatar-ring" aria-hidden="true"></div>
+          <div class="hero-float-tag tag-1"><i class="ph ph-code"></i> Clean Code</div>
+          <div class="hero-float-tag tag-2"><i class="ph ph-star"></i> 4.9 Rating</div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <i class="ph ph-arrow-down"></i>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════
+         ABOUT
+    ══════════════════════════════ -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-box">
+            <div class="about-img-placeholder">
+              <i class="ph ph-user-circle"></i>
+              <span>Your Photo Here</span>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="about-stat"><span class="stat-n">50+</span><span class="stat-l">Projects Done</span></div>
+            <div class="about-stat"><span class="stat-n">30+</span><span class="stat-l">Happy Clients</span></div>
+            <div class="about-stat"><span class="stat-n">5</span><span class="stat-l">Years Exp</span></div>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title">Passionate developer<br><em>building the web</em></h2>
+          <p class="about-text">I'm a full-stack developer with 5+ years of experience building web applications that balance aesthetics and performance. I love working at the intersection of design and engineering — where visual clarity meets robust functionality.</p>
+          <p class="about-text">When I'm not coding, you'll find me hiking trails, sketching UI concepts, or contributing to open-source projects on GitHub.</p>
+          <div class="about-info-grid">
+            <div class="info-item"><i class="ph ph-map-pin"></i> Hyderbad, Telangana </div>
+            <div class="info-item"><i class="ph ph-briefcase"></i> Open to Work</div>
+            <div class="info-item"><i class="ph ph-graduation-cap"></i> B.Tech Computer Science and Engineering</div>
+            <div class="info-item"><i class="ph ph-translate"></i> English, Telugu</div>
+          </div>
+          <a href="#" class="btn btn-primary" download>
+            <i class="ph ph-download-simple"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════
+         SKILLS
+    ══════════════════════════════ -->
+    <section class="skills section bg-dark" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">What I Know</p>
+          <h2 class="section-title light">Skills &amp; <em>Technologies</em></h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-category">
+            <h3 class="skills-cat-title"><i class="ph ph-monitor"></i> Frontend</h3>
+            <div class="skill-bars">
+              <div class="skill-bar"><div class="skill-info"><span>HTML / CSS</span><span>95%</span></div><div class="bar"><div class="bar-fill" style="--w:95%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>JavaScript</span><span>88%</span></div><div class="bar"><div class="bar-fill" style="--w:88%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>React.js</span><span>85%</span></div><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>TypeScript</span><span>78%</span></div><div class="bar"><div class="bar-fill" style="--w:78%"></div></div></div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3 class="skills-cat-title"><i class="ph ph-database"></i> Backend</h3>
+            <div class="skill-bars">
+              <div class="skill-bar"><div class="skill-info"><span>Node.js</span><span>82%</span></div><div class="bar"><div class="bar-fill" style="--w:82%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>Python</span><span>75%</span></div><div class="bar"><div class="bar-fill" style="--w:75%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>PostgreSQL</span><span>70%</span></div><div class="bar"><div class="bar-fill" style="--w:70%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>REST APIs</span><span>88%</span></div><div class="bar"><div class="bar-fill" style="--w:88%"></div></div></div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3 class="skills-cat-title"><i class="ph ph-pencil-ruler"></i> Design &amp; Tools</h3>
+            <div class="skill-bars">
+              <div class="skill-bar"><div class="skill-info"><span>Figma</span><span>80%</span></div><div class="bar"><div class="bar-fill" style="--w:80%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>Git / GitHub</span><span>90%</span></div><div class="bar"><div class="bar-fill" style="--w:90%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>Docker</span><span>65%</span></div><div class="bar"><div class="bar-fill" style="--w:65%"></div></div></div>
+              <div class="skill-bar"><div class="skill-info"><span>UI/UX Design</span><span>78%</span></div><div class="bar"><div class="bar-fill" style="--w:78%"></div></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Tech Pills -->
+        <div class="tech-pills">
+          <span class="pill">React</span><span class="pill">Next.js</span><span class="pill">Node</span>
+          <span class="pill">Python</span><span class="pill">PostgreSQL</span><span class="pill">MongoDB</span>
+          <span class="pill">Docker</span><span class="pill">AWS</span><span class="pill">Figma</span>
+          <span class="pill">Tailwind</span><span class="pill">GraphQL</span><span class="pill">TypeScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════
+         PROJECTS
+    ══════════════════════════════ -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">My Work</p>
+          <h2 class="section-title">Featured <em>Projects</em></h2>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="ui">UI Design</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <div class="project-card" data-category="web">
+            <div class="project-img" style="--hue: 245deg">
+              <i class="ph ph-storefront"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+              <h3 class="project-name">ShopFlow E-Commerce</h3>
+              <p class="project-desc">A full-stack e-commerce platform with real-time inventory, Stripe payments, and admin dashboard for 500+ products.</p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Code</a>
+                <a href="#" class="project-link accent"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card featured-card" data-category="web">
+            <span class="project-badge">Featured</span>
+            <div class="project-img" style="--hue: 162deg">
+              <i class="ph ph-chart-line-up"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span></div>
+              <h3 class="project-name">FinTrack Dashboard</h3>
+              <p class="project-desc">Personal finance tracker with D3.js charts, budget alerts, CSV exports, and multi-currency support for global users.</p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Code</a>
+                <a href="#" class="project-link accent"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="ui">
+            <div class="project-img" style="--hue: 320deg">
+              <i class="ph ph-palette"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Figma</span><span>CSS</span><span>Animation</span></div>
+              <h3 class="project-name">Pulse Design System</h3>
+              <p class="project-desc">A component library and design system with 80+ reusable UI components, dark mode, and accessibility-first documentation.</p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Code</a>
+                <a href="#" class="project-link accent"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="mobile">
+            <div class="project-img" style="--hue: 28deg">
+              <i class="ph ph-device-mobile"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>React Native</span><span>Firebase</span></div>
+              <h3 class="project-name">TaskNest Mobile App</h3>
+              <p class="project-desc">A cross-platform task management app with real-time sync, push notifications, and offline mode for iOS and Android.</p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Code</a>
+                <a href="#" class="project-link accent"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="web">
+            <div class="project-img" style="--hue: 195deg">
+              <i class="ph ph-chat-dots"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Socket.io</span><span>React</span><span>Express</span></div>
+              <h3 class="project-name">ChatWave Messenger</h3>
+              <p class="project-desc">Real-time chat application with group rooms, file sharing, emoji reactions, and end-to-end encrypted messages.</p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Code</a>
+                <a href="#" class="project-link accent"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="ui">
+            <div class="project-img" style="--hue: 50deg">
+              <i class="ph ph-camera"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>GSAP</span></div>
+              <h3 class="project-name">Folio Photography</h3>
+              <p class="project-desc">Animated photography portfolio with masonry layout, lightbox gallery, lazy loading, and smooth scroll transitions.</p>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Code</a>
+                <a href="#" class="project-link accent"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="projects-more">
+          <a href="https://github.com" target="_blank" class="btn btn-outline">
+            <i class="ph ph-github-logo"></i> View All on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════
+         EXPERIENCE
+    ══════════════════════════════ -->
+    <section class="experience section bg-tint" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">My Journey</p>
+          <h2 class="section-title">Work <em>Experience</em></h2>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Frontend Developer</h3>
+                  <p class="timeline-company"><i class="ph ph-building-office"></i> TechNova Inc. · Bangalore</p>
+                </div>
+                <span class="timeline-date">2022 – Present</span>
+              </div>
+              <p class="timeline-desc">Led frontend architecture for a SaaS platform serving 200K+ users. Built a React component library adopted by 5 product teams. Reduced bundle size by 40% through code-splitting and lazy loading.</p>
+              <div class="timeline-skills"><span>React</span><span>TypeScript</span><span>GraphQL</span></div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Full-Stack Developer</h3>
+                  <p class="timeline-company"><i class="ph ph-building-office"></i> Pixel Labs · Chennai</p>
+                </div>
+                <span class="timeline-date">2020 – 2022</span>
+              </div>
+              <p class="timeline-desc">Built and shipped 10+ client web applications from design to deployment. Integrated REST and GraphQL APIs, developed Node.js microservices, and mentored 2 junior developers.</p>
+              <div class="timeline-skills"><span>Node.js</span><span>React</span><span>PostgreSQL</span></div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">UI/UX Designer &amp; Developer</h3>
+                  <p class="timeline-company"><i class="ph ph-building-office"></i> CreativeBox Studio · Hyderabad</p>
+                </div>
+                <span class="timeline-date">2019 – 2020</span>
+              </div>
+              <p class="timeline-desc">Designed and developed marketing websites and landing pages for 20+ brands. Created wireframes, prototypes, and final handoffs using Figma and delivered pixel-perfect HTML/CSS implementations.</p>
+              <div class="timeline-skills"><span>Figma</span><span>HTML/CSS</span><span>JavaScript</span></div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Web Dev Intern</h3>
+                  <p class="timeline-company"><i class="ph ph-building-office"></i> StartupHive · Hyderabad</p>
+                </div>
+                <span class="timeline-date">2018 – 2019</span>
+              </div>
+              <p class="timeline-desc">Contributed to frontend development of an early-stage SaaS product. Built reusable React components, wrote unit tests, and participated in weekly design sprints and code reviews.</p>
+              <div class="timeline-skills"><span>React</span><span>Jest</span><span>CSS</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════
+         CONTACT
+    ══════════════════════════════ -->
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-tag">Get In Touch</p>
+          <h2 class="section-title">Let's work<br><em>together</em></h2>
+          <p class="contact-desc">Have a project in mind, or just want to say hello? I'm always open to interesting conversations and new opportunities.</p>
+          <div class="contact-items">
+            <a href="mailto:knkreddy123@gmail.com" class="contact-item">
+              <div class="contact-icon"><i class="ph ph-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-val">knkreddy123@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+14155550123" class="contact-item">
+              <div class="contact-icon"><i class="ph ph-phone"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <span class="contact-val">+91 6302018281</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ph ph-map-pin"></i></div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-val">Hyderbad, Telangana</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble"><i class="ph ph-dribbble-logo"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required/>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required/>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Enquiry" required/>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              <i class="ph ph-paper-plane-tilt"></i> Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="ph ph-check-circle"></i> Message sent! I'll reply within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════
+       FOOTER
+  ══════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="footer-logo">NKR<span>.</span></a>
+      <p class="footer-copy">© 2025 Nanda Kishore Reddy . Designed &amp; Built with <i class="ph ph-heart" style="color:#f43f5e"></i></p>
+      <div class="footer-social">
+        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ph ph-arrow-up"></i>
+  </a>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    // Sticky header
+    window.addEventListener('scroll', () => {
+      document.querySelector('.site-header').classList.toggle('scrolled', window.scrollY > 40);
+      document.getElementById('backToTop').classList.toggle('visible', window.scrollY > 400);
+    });
+
+    // Project filter
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.project-card').forEach(card => {
+          card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+        });
+      });
+    });
+
+    // Contact form submit
+    document.getElementById('contactForm').addEventListener('submit', e => {
+      e.preventDefault();
+      document.getElementById('formSuccess').classList.add('show');
+      e.target.reset();
+      setTimeout(() => document.getElementById('formSuccess').classList.remove('show'), 4000);
+    });
+
+    // Animate skill bars on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('.bar-fill').forEach(bar => bar.classList.add('animated'));
+        }
+      });
+    }, { threshold: 0.3 });
+    const skillsSection = document.querySelector('.skills');
+    if (skillsSection) observer.observe(skillsSection);
+  </script>
+
+</body>
+</html>
